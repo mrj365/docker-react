@@ -13,8 +13,8 @@ script:
     region: "us-east-2"
     app: docker-react
     env: "DockerReact-env"
-    bucker_name: "elasticbeanstalk-us-east-2-563999258802"
-    bucker_path: "docker-react"
+    bucket_name: "elasticbeanstalk-us-east-2-563999258802"
+    bucket_path: "docker-react"
     on:
       branch: master
     access_key_id: 
