@@ -15,5 +15,6 @@ RUN npm run build
 
 # There can only be one non-build from statement
 FROM nginx
+EXPOSE 80
 
 COPY --from=builder /app/build /usr/share/nginx/html
